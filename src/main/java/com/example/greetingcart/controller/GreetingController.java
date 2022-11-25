@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GreetingController {
-    @Autowired//dependency injection
+    @Autowired //dependency injection
     GreetingService greetingService;
 
     @GetMapping("/get")
-    public String get(){
+    public String get()
+    {
         return greetingService.display();
+
     }
 }
