@@ -39,11 +39,11 @@ public class GreetingController {
     {
         return greetingService.getById(id);
     }
-//    //uc6
-//    @GetMapping("/all")
-//    public List<GreetingModel>greetingModelsFindAll(){
-//        return greetingService.getAllGreetings();
-//}
+    //uc6
+    @GetMapping("/all")
+    public List<GreetingModel>greetingModelsFindAll(){
+        return greetingService.getAllGreetings();
+}
 //    //uc7
 //    @PutMapping("/update/{id}")
 //    public GreetingModel greeting(@RequestBody GreetingModel greetingModel, @PathVariable int id)

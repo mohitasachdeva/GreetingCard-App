@@ -29,10 +29,10 @@ public GreetingModel getById(int id){
     GreetingModel greetingModel =irepoGreet.findById(id).get();
     return greetingModel;
 }
-//public List<GreetingModel>getAllGreetings(){
-//     List<GreetingModel> greetingModels=irepoGreet.findAll();
-//     return greetingModels;
-//}
+public List<GreetingModel>getAllGreetings(){
+     List<GreetingModel> greetingModels=irepoGreet.findAll();
+     return greetingModels;
+}
 //    public GreetingModel updateGreeting(GreetingModel greetingModel,int id) {
 //         greetingModel = irepoGreet.findById(id).get();
 //        return greetingModel;
