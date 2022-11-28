@@ -13,9 +13,9 @@ public class GreetingService {
     public String display() {
         return "hello world";
     }
-//    public String user(String fName , String lName){
-//        return fName +" "+lName;
-//    }
+    public String user(String fName , String lName){
+        return fName +" "+lName;
+    }
 //    @Autowired
 //    irepoGreet irepoGreet;
 //

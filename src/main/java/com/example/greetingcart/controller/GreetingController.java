@@ -22,12 +22,12 @@ public class GreetingController {
         return greetingService.display();
 
     }
-//    //uc2 to 3
-//    @PostMapping
-//    public String users(@RequestBody  String fName , String lName){
-//        return greetingService.user(fName,lName);
-//    }
-//    //uc4
+    //uc2 to 3
+    @PostMapping
+    public String users(@RequestBody  String fName , String lName){
+        return greetingService.user(fName,lName);
+    }
+    //uc4
 //
 //    @PostMapping("/user")
 //    public GreetingModel save(@RequestBody GreetingModel greetingModel){
