@@ -22,28 +22,28 @@ public class GreetingController {
         return greetingService.display();
 
     }
-//    //uc2 to 3
-//    @PostMapping
-//    public String users(@RequestBody  String fName , String lName){
-//        return greetingService.user(fName,lName);
-//    }
-//    //uc4
-//
-//    @PostMapping("/user")
-//    public GreetingModel save(@RequestBody GreetingModel greetingModel){
-//        return greetingService.saves(greetingModel);
-//    }
+    //uc2 to 3
+    @PostMapping
+    public String users(@RequestBody  String fName , String lName){
+        return greetingService.user(fName,lName);
+    }
+    //uc4
+
+    @PostMapping("/user")
+    public GreetingModel save(@RequestBody GreetingModel greetingModel){
+        return greetingService.saves(greetingModel);
+    }
 //    //uc5
-//    @GetMapping("/getting/{id}")
-//    public GreetingModel gets(@PathVariable int id)
-//    {
-//        return greetingService.getById(id);
-//    }
-//    //uc6
-//    @GetMapping("/all")
-//    public List<GreetingModel>greetingModelsFindAll(){
-//        return greetingService.getAllGreetings();
-//}
+    @GetMapping("/getting/{id}")
+    public GreetingModel gets(@PathVariable int id)
+    {
+        return greetingService.getById(id);
+    }
+    //uc6
+    @GetMapping("/all")
+    public List<GreetingModel>greetingModelsFindAll(){
+        return greetingService.getAllGreetings();
+}
 //    //uc7
 //    @PutMapping("/update/{id}")
 //    public GreetingModel greeting(@RequestBody GreetingModel greetingModel, @PathVariable int id)
