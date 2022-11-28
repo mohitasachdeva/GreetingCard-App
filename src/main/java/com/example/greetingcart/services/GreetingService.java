@@ -37,10 +37,10 @@ public List<GreetingModel>getAllGreetings(){
          greetingModel = irepoGreet.findById(id).get();
         return greetingModel;
     }
-//    public void deleteByID(int id){
-//        irepoGreet.deleteById(id);
-//
-//    }
+    public void deleteByID(int id){
+        irepoGreet.deleteById(id);
+
+    }
 
 }
 

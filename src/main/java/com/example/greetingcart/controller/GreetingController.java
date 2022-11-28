@@ -50,12 +50,12 @@ public class GreetingController {
     {
         return  greetingService.updateGreeting(greetingModel,id);
     }
-//    //uc8
-//    @DeleteMapping("/del/{id}")
-//    public void del(@PathVariable int id)
-//    {
-//        greetingService.deleteByID(id);
-//
-//    }
+    //uc8
+    @DeleteMapping("/del/{id}")
+    public void del(@PathVariable int id)
+    {
+        greetingService.deleteByID(id);
+
+    }
 
 }
