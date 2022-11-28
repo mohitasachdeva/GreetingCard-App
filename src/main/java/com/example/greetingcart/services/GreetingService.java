@@ -25,10 +25,10 @@ public class GreetingService {
     return irepoGreet.save(greetingModel);
 
  }
-//public GreetingModel getById(int id){
-//    GreetingModel greetingModel =irepoGreet.findById(id).get();
-//    return greetingModel;
-//}
+public GreetingModel getById(int id){
+    GreetingModel greetingModel =irepoGreet.findById(id).get();
+    return greetingModel;
+}
 //public List<GreetingModel>getAllGreetings(){
 //     List<GreetingModel> greetingModels=irepoGreet.findAll();
 //     return greetingModels;

@@ -34,11 +34,11 @@ public class GreetingController {
         return greetingService.saves(greetingModel);
     }
 //    //uc5
-//    @GetMapping("/getting/{id}")
-//    public GreetingModel gets(@PathVariable int id)
-//    {
-//        return greetingService.getById(id);
-//    }
+    @GetMapping("/getting/{id}")
+    public GreetingModel gets(@PathVariable int id)
+    {
+        return greetingService.getById(id);
+    }
 //    //uc6
 //    @GetMapping("/all")
 //    public List<GreetingModel>greetingModelsFindAll(){
