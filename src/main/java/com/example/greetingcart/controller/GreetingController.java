@@ -28,11 +28,11 @@ public class GreetingController {
         return greetingService.user(fName,lName);
     }
     //uc4
-//
-//    @PostMapping("/user")
-//    public GreetingModel save(@RequestBody GreetingModel greetingModel){
-//        return greetingService.saves(greetingModel);
-//    }
+
+    @PostMapping("/user")
+    public GreetingModel save(@RequestBody GreetingModel greetingModel){
+        return greetingService.saves(greetingModel);
+    }
 //    //uc5
 //    @GetMapping("/getting/{id}")
 //    public GreetingModel gets(@PathVariable int id)

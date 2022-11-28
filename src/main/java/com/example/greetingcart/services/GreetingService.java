@@ -16,15 +16,15 @@ public class GreetingService {
     public String user(String fName , String lName){
         return fName +" "+lName;
     }
-//    @Autowired
-//    irepoGreet irepoGreet;
-//
-//
-//
-// public GreetingModel saves(GreetingModel greetingModel) {
-//    return irepoGreet.save(greetingModel);
-//
-// }
+    @Autowired
+    irepoGreet irepoGreet;
+
+
+
+ public GreetingModel saves(GreetingModel greetingModel) {
+    return irepoGreet.save(greetingModel);
+
+ }
 //public GreetingModel getById(int id){
 //    GreetingModel greetingModel =irepoGreet.findById(id).get();
 //    return greetingModel;
