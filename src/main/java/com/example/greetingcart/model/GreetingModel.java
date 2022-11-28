@@ -13,15 +13,6 @@ public class GreetingModel {
         return firstName;
     }
 
-    @Override
-    public String toString() {
-        return "GreetingModel{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
-    }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
