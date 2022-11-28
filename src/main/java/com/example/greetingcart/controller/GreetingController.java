@@ -44,12 +44,12 @@ public class GreetingController {
     public List<GreetingModel>greetingModelsFindAll(){
         return greetingService.getAllGreetings();
 }
-//    //uc7
-//    @PutMapping("/update/{id}")
-//    public GreetingModel greeting(@RequestBody GreetingModel greetingModel, @PathVariable int id)
-//    {
-//        return  greetingService.updateGreeting(greetingModel,id);
-//    }
+    //uc7
+    @PutMapping("/update/{id}")
+    public GreetingModel greeting(@RequestBody GreetingModel greetingModel, @PathVariable int id)
+    {
+        return  greetingService.updateGreeting(greetingModel,id);
+    }
 //    //uc8
 //    @DeleteMapping("/del/{id}")
 //    public void del(@PathVariable int id)
